@@ -7,4 +7,3 @@ install:
     - dotnet restore
 script:
     - dotnet build -c Release --no-restore
-    - dotnet test
