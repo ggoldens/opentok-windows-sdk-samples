@@ -3,7 +3,6 @@ os: windows
 solution: BasicVideoChat/BasicVideoChat.sln
 mono: none
 install:
-    - choco install nuget.commandline
     - cd BasicVideoChat
     - dotnet restore
 script:
