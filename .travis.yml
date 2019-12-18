@@ -5,7 +5,7 @@ mono: none
 install:
     - choco install nuget.commandline
     - cd BasicVideoChat
-    - nuget restore BasicVideoChat.sln
+    - dotnet restore
 script:
     - dotnet build -c Release --no-restore
     - dotnet test
