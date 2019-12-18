@@ -5,4 +5,4 @@ mono: none
 before_script:
     - export PATH=$PATH:"/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin"
 script:
-    - MSBuild.exe BasicVideoChat/BasicVideoChat.sln /p:Configuration="Release"
+    - MSBuild.exe "BasicVideoChat/BasicVideoChat.sln" /p:Configuration="Release"
