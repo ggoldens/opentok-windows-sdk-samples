@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicVideoChat", "BasicVideoChat.csproj", "{BB82BB46-807A-4C81-8FE4-5ED3D5921707}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "..\XUnitTestProject1\XUnitTestProject1.csproj", "{DF847298-9719-4288-9088-D15A23E4BB74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{BB82BB46-807A-4C81-8FE4-5ED3D5921707}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB82BB46-807A-4C81-8FE4-5ED3D5921707}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB82BB46-807A-4C81-8FE4-5ED3D5921707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF847298-9719-4288-9088-D15A23E4BB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF847298-9719-4288-9088-D15A23E4BB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF847298-9719-4288-9088-D15A23E4BB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF847298-9719-4288-9088-D15A23E4BB74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5579FDE8-5D6C-4539-A905-329E593D25C6}
 	EndGlobalSection
 EndGlobal
