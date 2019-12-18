@@ -3,7 +3,6 @@ os: windows
 solution: BasicVideoChat/BasicVideoChat.sln
 mono: none
 install:
-    - choco install nuget.commandline
     - cd BasicVideoChat
     - nuget restore BasicVideoChat.sln
     - powesherll --Commend Install-Package xunit.runner.console -Version 2.4.1
