@@ -8,5 +8,4 @@ before_script:
     - cd BasicVideoChat
 script:
     - nuget restore BasicVideoChat.sln 
-    - cd C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\bin
-    - dir
+    - 'C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\bin\msbuild.exe'
