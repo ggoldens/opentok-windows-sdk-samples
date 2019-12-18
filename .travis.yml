@@ -7,6 +7,7 @@ install:
 before_script:
     - cd BasicVideoChat
     - export PATH=$MSBUILD_PATH:$PATH
+    - export PATH=$PATH:";C:\Users\travis\build\AviramNahon\oxygen-ide\WiX.Toolset.3.9.1208.0\tools\wix"
     - echo $PATH
 script:
     - nuget restore BasicVideoChat.sln
