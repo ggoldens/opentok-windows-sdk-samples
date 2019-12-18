@@ -6,8 +6,6 @@ install:
     - choco install nuget.commandline
     - cd BasicVideoChat
     - nuget restore BasicVideoChat.sln
-before_script:
-    - export PATH=$PATH:"/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin"
 script:
-    - MSBuild.exe
+    - dotnet build -c Release --no-restore
     - dotnet test
