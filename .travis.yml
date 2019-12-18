@@ -2,6 +2,8 @@ language: csharp
 os: windows
 solution: BasicVideoChat/BasicVideoChat.sln
 mono: none
+before_install:
+    - export MSBUILD_PATH="/C/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin"
 install: 
     - choco install nuget.commandline
 before_script:
@@ -9,3 +11,4 @@ before_script:
 script:
     - nuget restore BasicVideoChat.sln 
     - export PATH=$MSBUILD_PATH:$PATH
+    - msbuild
