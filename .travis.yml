@@ -8,4 +8,4 @@ before_script:
     - cd BasicVideoChat
 script:
     - nuget restore BasicVideoChat.sln 
-    - cd
+    - export PATH=$MSBUILD_PATH:$PATH
