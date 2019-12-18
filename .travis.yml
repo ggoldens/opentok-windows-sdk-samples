@@ -6,7 +6,7 @@ install:
     - choco install nuget.commandline
     - cd BasicVideoChat
     - nuget restore BasicVideoChat.sln
-    - dotnet add package xunit.runner.console --version 2.4.1
+    - powesherll --Commend Install-Package xunit.runner.console -Version 2.4.1
 before_script:
     - export PATH=$PATH:"/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin"
 script:
