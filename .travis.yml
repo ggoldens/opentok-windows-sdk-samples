@@ -10,3 +10,6 @@ before_script:
     - export PATH=$PATH:"/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin"
 script:
     - MSBuild.exe
+    - cd BasicVideoChat.Tests
+    - dotnet restore
+    - dotnet test
