@@ -12,6 +12,7 @@ script:
     - MSBuild.exe
     - cd BasicVideoChat.Tests
     - nuget restore BasicVideoChat.Tests.sln
+    - MSBuild.exe
     - dotnet restore
     - dotnet build
     - dotnet test
