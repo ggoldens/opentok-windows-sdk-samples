@@ -137,7 +137,7 @@ publish/
 # Remove from ignore required NuGet files
 !*/packages/**/build
 !*/packages/**/build/x64
-!*/packages/**/build/net45
+!**/packages/**/build
 
 # Windows Azure Build Output
 csx/
