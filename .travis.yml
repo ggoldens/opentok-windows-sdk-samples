@@ -3,5 +3,5 @@ os: windows
 solution: BasicVideoChat/BasicVideoChat.sln
 mono: none
 script:
-    - cd "C:\Program Files (x86)\Microsoft Visual Studio\"
+    - cd $VS140COMNTOOLS
     - dir
