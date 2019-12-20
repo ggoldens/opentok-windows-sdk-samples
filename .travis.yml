@@ -11,5 +11,6 @@ before_script:
 script:
     - MSBuild.exe
     - cd BasicVideoChat.Tests
+    - nuget restore BasicVideoChat.Tests.sln
     - dotnet restore
     - dotnet test
