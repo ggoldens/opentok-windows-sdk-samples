@@ -2,6 +2,12 @@ language: csharp
 os: windows
 solution: BasicVideoChat/BasicVideoChat.sln
 mono: none
+install:
+    - choco install nuget.commandline
+    - cd BasicVideoChat
+    - nuget restore BasicVideoChat.sln
+before_script:
+    - export PATH=$PATH:"/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin"
 script:
-    - echo $VS140COMNTOOLS
-    - echo $VS150COMNTOOLS
+    - cd "C:\Program Files (x86)\Microsoft Visual Studio\"
+    - dir
