@@ -13,4 +13,5 @@ script:
     - cd BasicVideoChat.Tests
     - nuget restore BasicVideoChat.Tests.sln
     - dotnet restore
+    - dotnet build
     - dotnet test
