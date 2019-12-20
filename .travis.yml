@@ -10,4 +10,5 @@ before_script:
     - export PATH=$PATH:"/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin"
     - export PATH=$PATH:"/c/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/CommonExtensions/Microsoft/TestWindow"
 script:
-    - VSTest.Console.exe
+    - cd BasicVideoChatTests
+    - dotnet test
